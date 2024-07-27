@@ -1,0 +1,732 @@
+/* home */
+#home{
+    background-color: #eeeced;
+    height: auto;
+    padding-bottom: 2em;
+}
+#home .home-header .row img{
+    width: 40px;
+    height: 40px;
+}
+#home .bg-body-tertiary {
+    --bs-bg-opacity: 0;
+    background-color: rgba(var(--bs-tertiary-bg-rgb), var(--bs-bg-opacity)) !important;
+}
+#home .navbar-brand span{
+    color: rgb(243, 103, 16);
+}
+#home .row .left_side a{
+    font-size: 19px;
+}
+#home .row a{
+    align-items: center;
+    text-align: justify;
+    font-size: 11px;
+    font-family: sans-serif;
+}
+#home .row a span{
+    color: rgb(243, 103, 16);
+}
+#home form a{
+    padding-right: 10px;
+    color: black;
+    padding-top: 5px;
+}
+#home .navbar-nav {
+    font-size: 11px;
+    font-weight: 600;
+}
+#home .line{
+    width: 0.5px;
+    height: 18px;
+    background-color: #777;
+    margin: 7px 0;
+    margin-right: 8px;
+}
+#home .btn{
+    background-color:rgb(243, 103, 16) ;
+    color: white;
+    font-size: 11px;
+    padding: 5px 15px;
+    border-radius: 0px;
+    border: none;
+}
+#home .content  .row{
+    width: 100%;
+    margin: auto;
+}
+#home .content .img-box{
+    width:auto;
+    margin: auto 0;
+    align-content: center;
+    text-align: center;
+}
+#home .content .img-box img{
+    width: 100%;
+    height: 350px;
+}
+#home .text-box {
+    width:230px;
+    height: 230px;
+    border-radius: 50% 50% 43% 43%;
+    background-color: rgb(243, 103, 16);
+    opacity: 0.8;
+    margin: auto;
+    padding: 1em;
+}
+#home .text-box img{
+    width: 100px;
+    height: 100px;
+    margin-top: -3em;
+}
+#home .text-box .text{
+    font-weight: 800;
+}
+/* dog abc */
+#dogabc{
+    background-color: #333;
+    height: auto;
+    position:relative;
+    width: 100%;
+    margin-top: -10px;
+    border-top: 20px solid  #eeeced;
+
+}
+#dogabc .box-grp{
+    width: 70%;
+    margin: auto;
+}
+#dogabc .search-bar{
+    width: 70%;
+    background-color: white;
+    height: auto;
+    border-radius: 5px;
+     align-content: center;
+     margin: auto;
+     margin-top: -2em;
+
+}
+#dogabc .box-grp .box{
+    height: 130px;
+    border: 2px solid #666;
+    border-radius: 5px;
+    color: #666;
+    margin: 1em;
+    cursor: pointer;
+}
+#dogabc .box-grp .box:hover{
+    background-color: rgb(243, 103, 16);
+    color: white;
+}
+#dogabc .box-group .box{
+    font-size: 18px;
+    line-height: 2em;
+}
+#dogabc .box .icon{
+    font-size: 30px;
+}
+#dogabc .box-grp  .row{
+    padding: 2em;
+}
+#dogabc .search-bar .row{
+    width: 100%;
+    margin: auto;
+    height: inherit;
+    line-height: 4px;
+}
+#dogabc .search-bar .box {
+    border-right: 1px solid #777;
+    height: inherit;
+    padding: 1em;
+    font-size: 13px;
+}
+#dogabc .search-bar .box span{
+    font-size: 14px;
+    font-weight: 600;
+}
+#dogabc .search-bar .box select{
+    width: 100%;
+    border: none;
+    font-size: 13px;
+    font-weight: 600;
+}
+#dogabc .search-bar .box .btn{
+    height: inherit;
+    width: 50px;
+    background-color:  rgb(243, 103, 16);
+    border-radius: 3px;
+    align-content: center;
+    text-align: center;
+    margin-left: auto;
+    color: white;
+    font-size: 18px;
+}
+/* popular breed */
+#popularbreed{
+    height: auto;
+    color: black;
+    padding: 2em;
+}
+#popularbreed .slider-breed button img{
+    height: 30px;
+    width: 30px;
+}
+#popularbreed h1{
+    font-weight: 300;
+    padding: 10px;
+}
+#popularbreed h1 span{
+    font-weight: 600;
+}
+#popularbreed  .row{
+    width:70%;
+    margin: auto;
+    padding: 2em 0;
+}
+#popularbreed .col-lg-3{
+    padding: 5px;
+    cursor: pointer;
+}
+#popularbreed .breed-box{
+    padding: 5px;
+}
+#popularbreed .col-lg-3{
+    height:inherit;
+    padding: 1em;
+}
+#popularbreed .col-lg-3:hover{
+    box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.53);
+    border-radius: 5px;
+    background-image: url("img/circle.svg");
+    background-repeat: no-repeat;
+    background-position: 50% 15%;
+}
+#popularbreed .breed-box p{
+    padding: 7px;
+}
+#popularbreed .breed-box img{
+    width: 70px;
+    height: 70px;
+}
+#popularbreed .btn img{
+    height: 30px;
+    width: 30px;
+}
+#popularbreed .button-breed{
+    padding: 1em ;
+}
+#popularbreed .button-breed .btn{
+    border: 2px solidrgb(243, 103, 16) ;
+    padding: 5px 30px;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+}
+#popularbreed .button-breed .btn:hover{
+    background-color:rgb(243, 103, 16) ;
+}
+/* dog features */
+#dogfeatures{
+    background-color: rgb(243, 103, 16);
+    height: auto;
+    padding: 3em;
+    color: white;
+}
+#dogfeatures .heading-container h1 span{
+    font-weight: 300;
+}
+#dogfeatures .carousel-container .col-lg-3{
+    padding: 2em 0;
+}
+#dogfeatures .carousel-container .row{
+    width: 80%;
+    margin: auto;
+}
+#dogfeatures .carousel-container .card{
+    align-content: center;
+    justify-content: center;
+    margin: 0.5em auto;
+    border: none;
+}
+#dogfeatures .carousel-container .icon{
+    margin-left: auto;
+    cursor: pointer;
+}
+#dogfeatures .carousel-container .icon:hover{
+    color: red;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+#dogfeatures .material-symbols-outlined {
+    font-size: 19px;
+}
+#dogfeatures .card-body{
+    line-height: 1em;
+}
+#dogfeatures .circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin-right: auto;
+    position: absolute;
+    margin-left: 8em;
+    margin-top: -2em;
+    align-content: center;
+    text-align: center;
+}
+#dogfeatures .circle img{
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+}
+#dogfeatures .carousel-control-prev,#dogfeatures .carousel-control-next{
+    width: 5%;
+}
+#dogfeatures .carousel-container button img{
+    width: 30px;
+    height: 30px;
+    width: auto;
+}
+#dogfeatures .button-feature{
+    padding: 1em ;
+}
+#dogfeatures .button-feature .btn{
+    border: 2px solid #fff ;
+    padding: 5px 30px;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    color: white;
+}
+#dogfeatures .button-feature .btn:hover{
+    background-color:#fff;
+    color:  rgb(243, 103, 16);
+}
+/* dogbusiness */
+#dogbusiness{
+    height: auto;
+    padding: 3em;
+    color: #000;
+}
+#dogbusiness .heading-container h1 span{
+    font-weight: 300;
+}
+#dogbusiness .button-feature{
+    padding: 1em ;
+}
+#dogbusiness .button-feature .btn{
+    border: 2px solid rgb(243, 103, 16) ;
+    padding: 5px 50px;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    color: #000;
+}
+#dogbusiness .button-feature .btn:hover{
+    background-color: rgb(243, 103, 16);
+    color:  #fff;
+}
+#dogbusiness .content-container .row{
+    width: 85%;
+    margin: auto;
+}
+#dogbusiness .row-1{
+    padding: 2em;
+}
+#dogbusiness .row-1 .box{
+    border-bottom: 1.5px solid #ddd;
+}
+#dogbusiness .row-1 .box svg:hover{
+    fill:  rgb(243, 103, 16);
+}
+#dogbusiness .row-1 .box:hover{
+    color:  rgb(243, 103, 16);
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-top: 2px solid  rgb(243, 103, 16);
+    border-bottom: none;
+    background-image: linear-gradient(180deg,rgba(243, 103, 16, 0.112),rgba(242, 237, 234, 0.116));
+}
+#dogbusiness .row-1 .icon{
+    font-size: 40px;
+}
+#dogbusiness .row-1 .icon:hover{
+    color:  rgb(243, 103, 16);
+}
+#dogbusiness .row-1 img{
+    width: 60px;
+    height: 60px;
+    align-items: center;
+    padding: 0.5em;
+}
+#dogbusiness .row-1 p{
+    font-size: 11px;
+}
+#dogbusiness .row-1 a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+#dogbusiness .row-2{
+    width: 75%;
+}
+#dogbusiness .row-2 .col-md-4{
+    padding: 1em;
+}
+#dogbusiness .row-2 .box-1{
+    background-image: url('img/dogbuss-1.jpg');
+    height: auto;
+    background-size: cover;
+    padding-top: 1em;
+    background-position:50% 50%;
+}
+#dogbusiness .row-2 .box-2{
+    background-image: url('img/dogbuss-2.jpg');
+    height: auto;
+    background-size: cover;
+    padding-top: 1em;
+    background-position:50% 50%;
+}
+#dogbusiness .row-2 .box-3{
+    background-image: url('img/dogbuss-3.jpg');
+    height: auto;
+    background-size: cover;
+    background-position:50% 50%;
+    padding-top: 1em;
+}
+#dogbusiness .row-2 .text{
+    height:auto;
+    margin: 0 0.5em;
+    border-top: 9em solid transparent;
+    
+}
+#dogbusiness .row-2 .text-container{
+    background-color: #fff;
+}
+/* product */
+#product{
+    background-color:#444;
+    height: auto;
+    padding: 3em;
+    color: white;
+}
+#product .heading-container h1 span{
+    font-weight: 300;
+}
+#product  .carousel-container .col-lg-3{
+    padding: 2em 0;
+}
+#product  .carousel-container .row{
+    width: 80%;
+    margin: auto;
+}
+#product  .carousel-container .card{
+    align-content: center;
+    justify-content: center;
+    margin: 0.5em auto;
+    border: none;
+}
+#product  .carousel-container .icon{
+    margin-left: auto;
+    cursor: pointer;
+}
+#product  .carousel-container .icon:hover{
+    color: tomato;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+#product  .material-symbols-outlined {
+    font-size: 19px;
+}
+#product  .card-body{
+    line-height: 1em;
+}
+#product  .carousel-control-prev,#dogfeatures .carousel-control-next{
+    width: 5%;
+}
+#product .card img{
+    height: 180px;
+    padding: 1em;
+}
+#product  .carousel-container button img{
+    width: 30px;
+    height: 30px;
+    width: auto;
+}
+#product  .button-feature{
+    padding: 1em ;
+}
+#product  .button-feature .btn{
+    border: 2px solid #fff ;
+    padding: 5px 30px;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    color: white;
+}
+#product  .button-feature .btn:hover{
+    background-color:#fff;
+    color: #444;
+}
+/* magazine */
+#magazine{
+    padding: 4em 0;
+}
+#magazine .maganize-div{
+    padding: 1em ;
+}
+#magazine .magazine-div .row{
+    width: 80%;
+    margin: auto;
+}
+#magazine .text-container h1{
+    font-size: 4em;
+    color: #222;
+    padding: 0.24em 0.3em ;
+}
+#magazine .img-container img{
+    width: 480px;
+    height: 350px;
+    
+}
+#magazine .text-container{
+    background-color: transparent;
+}
+#magazine .text-container .text-box{
+    background-color: #fff;
+    width: 100%;
+    align-content: center;
+    padding: 2em 1em;
+} 
+#magazine .text-container .line{
+    width: 70%;
+    height: 2px;
+    background-color: #ddd;
+    margin-left: auto;
+}
+#magazine .slider-div .row {
+    padding: 2em 0;
+    width: 80%;
+    margin: auto;
+    height: auto;
+}
+#magazine .slider-div .row .col-lg-4{
+    margin: 1em 0;
+}
+#magazine .slider-div .row .box-2,
+#magazine .slider-div .row .box-1,
+#magazine .slider-div .row .box-3{
+    height: 268px;
+}
+#magazine .slider-div .row .text-container{
+    height: 105px;
+    padding: 0.8em;
+    border-radius: 5px 5px 0 0;
+}
+#magazine .row .box-1{
+    background-image: url('img/dogbuss-1.jpg');
+    height: auto;
+    background-size: cover;
+    padding-top: 1em;
+    background-position:50% 50%;
+    width: 100%;
+    height: 100%;
+}
+#magazine .row .box-2{
+    background-image: url('img/dogbuss-2.jpg');
+    height: auto;
+    background-size: cover;
+    padding-top: 1em;
+    background-position:100% 30%;
+}
+#magazine .row .box-3{
+    background-image: url('img/dogbuss-3.jpg');
+    height: auto;
+    background-size: cover;
+    background-position:50% 50%;
+    padding-top: 1em;
+}
+#magazine .row .box-3 .line{
+    width: 100%;
+    background-color: #fff;
+    height: 20px;
+}
+#magazine .slider-div .row .text{
+    height:auto;
+    border-top: 9em solid transparent;
+    padding: 1em 1em 0 1em;
+    border-bottom: 2px solid #ddd;
+    cursor: pointer;
+    
+}
+#magazine .slider-div .row .text:hover{
+    border-bottom: 2px solid rgb(243, 103, 16);
+    color: #fff;
+}
+#magazine .slider-div {
+    padding: 2em 0;
+}
+#magazine .slider-div .row .text-container:hover{
+    color: #fff;
+    background-color:rgb(243, 103, 16) ;
+}
+#magazine .slider-div .row .text-container{
+    background-color: #fff;
+    color: black;
+    height: auto;
+}
+#magazine .slider-div .row .text-container .p3{
+    font-weight: 600;
+    font-size: 14px;
+}
+#magazine .slider-div  button img{
+    width: 30px;
+    height: 30px;
+}
+
+#magazine  .button-feature{
+    padding: 1em ;
+}
+#magazine  .button-feature .btn{
+    border: 2px solid rgb(243, 103, 16) ;
+    padding: 5px 50px;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    color: #333;
+}
+#magazine  .button-feature .btn:hover{
+    background-color:rgb(243, 103, 16);
+    color: #fff;
+}
+/* contactUs */
+#contactUs{
+    background-color: #ddd;
+    height: auto;
+    padding: 3em;
+}
+#contactUs .row{
+    width: 85%;
+    margin: auto;
+}
+#contactUs .row-1{
+    border-bottom: 1px solid #bbb;
+    padding: 2em 0;
+}
+#contactUs .list{
+    padding: 0;
+    margin: 0;
+    color: #555;
+}
+#contactUs .list li{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 13px;
+    line-height: 2em;
+}
+#contactUs .list a{
+    text-decoration: none;
+    color: #555;
+}
+#contactUs .list-icon{
+    color: #000;
+    display: flex;
+    padding: 1em 0;
+}
+#contactUs .icons-div .list li{
+    display: inline;
+    padding-right: 10px;
+    cursor: pointer;
+}
+#contactUs .icons-div .list .icon:hover{
+    background-color:rgb(243, 103, 16) ;
+    border: none;
+    color: #fff;
+}
+#contactUs .icons-div .list .icon{
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 50%;
+    text-align: center;
+    align-content: center;
+}
+#contactUs .row-2 .para{
+    padding: 10px;
+    font-size: 13px;
+}
+#contactUs .box{
+    padding: 1em 0;
+}
+#contactUs .fl-wrap {
+    float: left;
+    width: 100%;
+    position: relative;
+}
+#contactUs .bbb-wrapper .subcribe-form form {
+    max-width: 450px;
+    position: relative;
+}
+
+#contactUs .bbb-wrapper .subcribe-form #subscribe input {
+    width: 100%;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 1px;
+    padding:5px  10px; 
+    font-size: 12px;
+}
+#contactUs .bbb-wrapper .subcribe-form #subscribe #subscribe-button {
+    border-radius: 0px 3px 3px 0;
+    border: none;
+    position: absolute;
+    right: 3px;
+    top: 2px;
+    font-size: 11px;
+    color: #fff;
+    cursor: pointer;
+    height: 25px;
+    width: 25px;
+}
+#contactUs .color-bg{ 
+	    background: #000;
+}
+#contactUs .bbb-wrapper .subcribe-form #subscribe #subscribe-button:hover{
+    background-color: rgb(243, 103, 16)
+}
+ @media  screen and (min-width:1200px) {
+    #home .navbar-nav{
+        padding-left: 8em;
+    }
+ }
+ @media  screen and (max-width:1200px) {
+    #home .navbar-nav a{
+       font-size: 10px;
+    }
+ }
+@media  screen and (max-width:590px){  
+    #magazine .img-container img{
+    width: 100%;
+    height: 350px;
+
+    }
+    
+    #magazine .text-container h1{
+    font-size: 2em;
+    color: #222;
+    padding: 0.24em 0.3em ;
+    }
+}
